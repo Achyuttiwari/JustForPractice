@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class FibonacciRecursion {
     public static int fibonacciRecursion(int size){
         if(size == 0) return 0;
-        if(size == 1 || size == 2) return 1;
+        else if(size == 1 || size == 2) return 1;
         return fibonacciRecursion(size - 1) + fibonacciRecursion(size - 2);
     }
 
