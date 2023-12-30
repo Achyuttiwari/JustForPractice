@@ -26,7 +26,7 @@ public class productOfNextAndPreviousNumberMax {
         Scanner scanner = new Scanner(System.in);
         int array[] = {9, 2, 3, 1, 5, 17};
         int lengthOfArray = array.length;
-        System.out.println(maxElement(array, lengthOfArray));
+        System.out.println("Out of all \""+ maxElement(array, lengthOfArray) + "\" is the Maximum.");
 
     }
 
@@ -40,6 +40,7 @@ public class productOfNextAndPreviousNumberMax {
 
         for (int i = 1; i < lengthOfArray; i++) {
             currProduct = array[i - 1] * array[(i + 1) % lengthOfArray];
+
             if (currProduct > maxProduct) {
                 maxProduct = currProduct;
                 maxElement = array[i];
