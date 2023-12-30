@@ -23,7 +23,7 @@ import java.util.Scanner;
 
 public class productOfNextAndPreviousNumberMax {
     public static void main(String[] args) {
-        Scanner scanner  = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         int array[] = {9, 2, 3, 1, 5, 17};
         int lengthOfArray = array.length;
         System.out.println(maxElement(array, lengthOfArray));
@@ -32,16 +32,22 @@ public class productOfNextAndPreviousNumberMax {
 
     private static int maxElement(int[] array, int lengthOfArray) {
 
-        if(lengthOfArray < 3) return  -1;
+        if (lengthOfArray < 3) return -1;
 
         int maxElement = array[0];
+        int currProduct;
         int maxProduct = array[lengthOfArray - 1] * array[1];
 
-        for(int i = 1; i < lengthOfArray; i++){
-            int currProduct = array[i - 1] * array[(i + 1) % lengthOfArray];
-
+        for (int i = 1; i < lengthOfArray; i++) {
+            currProduct = array[i - 1] * array[(i + 1) % lengthOfArray];
+            if (currProduct > maxProduct) {
+                maxProduct = currProduct;
+                maxElement = array[i];
+            }
+            else if(currProduct == maxProduct)
+                maxElement = Math.max(maxElement, array[i]);
         }
-
         return maxElement;
+
     }
 }
