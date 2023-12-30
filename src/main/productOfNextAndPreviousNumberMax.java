@@ -37,6 +37,11 @@ public class productOfNextAndPreviousNumberMax {
         int maxElement = array[0];
         int maxProduct = array[lengthOfArray - 1] * array[1];
 
+        for(int i = 1; i < lengthOfArray; i++){
+            int currProduct = array[i - 1] * array[(i + 1) % lengthOfArray];
+
+        }
+
         return maxElement;
     }
 }
