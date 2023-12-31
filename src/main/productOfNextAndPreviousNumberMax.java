@@ -1,7 +1,6 @@
 package main;
 /**
  * find Maximum element in an array such that its previous and next element product is maximum
- *
  * Example 1:
  * input: arr[] = {5, 6, 4, 3, 2}
  * Output: 6
@@ -14,17 +13,13 @@ package main;
  * 2 -> 3 * 5 = 15
  * Out of these 20 is the maximum.
  * Hence, 6 is the answer.
- *
  * Example2:
  * Input: arr[] = {9, 2, 3, 1, 5, 17}
  * Output: 17
  */
-import java.util.Scanner;
-
 public class productOfNextAndPreviousNumberMax {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int array[] = {9, 2, 3, 1, 5, 17};
+        int[] array = {9, 2, 3, 1, 5, 17};
         int lengthOfArray = array.length;
         System.out.println("Out of all \""+ maxElement(array, lengthOfArray) + "\" is the Maximum.");
 
