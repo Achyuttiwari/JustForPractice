@@ -13,13 +13,14 @@ package main;
  * 2 -> 3 * 5 = 15
  * Out of these 20 is the maximum.
  * Hence, 6 is the answer.
+ * output: Out of all "6" is the Maximum.
  * Example2:
  * Input: arr[] = {9, 2, 3, 1, 5, 17}
- * Output: 17
+ * Output: Out of all "17" is the Maximum.
  */
 public class productOfNextAndPreviousNumberMax {
     public static void main(String[] args) {
-        int[] array = {9, 2, 3, 1, 5, 17};
+        int[] array = {5, 6, 4, 3, 2};
         int lengthOfArray = array.length;
         System.out.println("Out of all \""+ maxElement(array, lengthOfArray) + "\" is the Maximum.");
 
