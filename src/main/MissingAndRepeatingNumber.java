@@ -16,7 +16,7 @@ public class MissingAndRepeatingNumber {
         scanner.close();
     }
 
-    private void printTwoElement(int[] array, int size) {
+    public void printTwoElement(int[] array, int size) {
         int[] temp
                 = new int[size]; // Creating temp array of size n
         // with initial values as 0.
@@ -40,5 +40,7 @@ public class MissingAndRepeatingNumber {
                 + repeatingNumber + ".");
         System.out.println("The missing number is "
                 + missingNumber + ".");
+
+
     }
 }
