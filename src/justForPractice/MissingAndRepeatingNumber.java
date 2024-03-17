@@ -1,4 +1,4 @@
-package main;
+package justForPractice;
 
 import java.util.Scanner;
 
@@ -40,7 +40,6 @@ public class MissingAndRepeatingNumber {
                 + repeatingNumber + ".");
         System.out.println("The missing number is "
                 + missingNumber + ".");
-
 
     }
 }

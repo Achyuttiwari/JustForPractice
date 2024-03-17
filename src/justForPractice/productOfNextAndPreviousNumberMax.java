@@ -1,4 +1,4 @@
-package main;
+package justForPractice;
 /**
  * find Maximum element in an array such that its previous and next element product is maximum
  * Example 1:

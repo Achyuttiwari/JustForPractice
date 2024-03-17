@@ -1,4 +1,4 @@
-package main;
+package justForPractice;
 
 public class MultiThread extends Thread{
     public void run(){
