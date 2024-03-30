@@ -1,6 +1,6 @@
 package justForPractice;
 /**
- * find Maximum element in an array such that its previous and next element product is maximum
+ * Find Maximum element in an array such that its previous and next element product is maximum
  * Example 1:
  * input: arr[] = {5, 6, 4, 3, 2}
  * Output: 6

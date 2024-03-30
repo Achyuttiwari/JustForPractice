@@ -24,6 +24,7 @@ public class SelectionSort {
                     System.out.println("Array after soring in Ascending order:\t" + Arrays.toString(array));
                     break;
                 case 2:
+
                     selectionSort.arrayInDescendingOrder(array, sizeOfArray);
                     System.out.println("Array after soring in Descending order:\t" + Arrays.toString(array));
                     break;
