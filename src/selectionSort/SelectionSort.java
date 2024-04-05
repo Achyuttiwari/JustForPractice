@@ -31,6 +31,7 @@ public class SelectionSort {
                     System.out.println("Regret Wrong choice \n You only have two choices 1 and 2");
             }
         }
+
         catch(Exception se){
             System.out.println(se);
             se.printStackTrace();
