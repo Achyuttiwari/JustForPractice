@@ -49,7 +49,6 @@ public class SelectionSort {
         }
         return array;
     }
-
     private int[] arrayInAscendingOrder(int[] array, int sizeOfArray) {
         int index = -1;
         for (int i = 0; i < sizeOfArray; i++) {
