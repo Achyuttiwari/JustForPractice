@@ -16,7 +16,6 @@ public class SegregationOfZeroAndOne {
         System.out.println(Arrays.toString(array)); // output: [0, 0, 0, 1, 1, 1, 1]
 
     }
-
     public static void main(String[] args) {
      int[] array = {0, 1, 1, 0, 1, 0, 1};
      int sizeOfTheArray = array.length;
