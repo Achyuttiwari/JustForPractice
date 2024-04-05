@@ -37,7 +37,6 @@ public class SelectionSort {
             se.printStackTrace();
         }
     }
-
     private int[] arrayInDescendingOrder(int[] array, int sizeOfArray) {
         int index = -1;
         for (int i = 0; i < sizeOfArray; i++) {
