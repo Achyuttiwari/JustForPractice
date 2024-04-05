@@ -7,7 +7,6 @@ public class SegregationOfZeroAndOne {
             if(array[i] == 0) ++count;   // count the no. of zero in the given array
         }
         for (i = 0; i < count; ++i){     // print all zero's on the left side
-
             array[i] = 0;
         }
         for(i = count; i < sizeOfTheArray; ++i){
