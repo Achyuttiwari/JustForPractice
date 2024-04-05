@@ -11,7 +11,6 @@ import java.util.Scanner;
  *      *********
  */
 public class Pyramid {
-
     static void pyramid(int noOfRows){
         int k = 0;
         for(int i = 1; i <= noOfRows; ++i, k = 0){   // i = 1, noOfRows = 4, i = 2
