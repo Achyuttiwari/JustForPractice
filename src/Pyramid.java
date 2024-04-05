@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 /**
+ * If the user input is:
  * Input: 5
  * Output:
  *          *

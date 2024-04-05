@@ -6,7 +6,6 @@ public class FibonacciRecursion {
         else if(size == 1 || size == 2) return 1;
         return fibonacciRecursion(size - 1) + fibonacciRecursion(size - 2);
     }
-
     public static void main(String[] args) {
         Scanner scanner  = new Scanner(System.in);
         int size = scanner.nextInt();
